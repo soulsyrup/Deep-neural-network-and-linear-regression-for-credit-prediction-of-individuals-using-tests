@@ -39,4 +39,4 @@ multivariable regression model was created, with an accuracy of 74.19%. An Artif
 https://osf.io/preprints/socarxiv/g4vjt/
 <br>
 <br>
-syrup, s. (2023, September 29). Alternative Personal Credit Scoring Tests without Financial History, A Novel Method, Credit Needs and Democracy. Retrieved from osf.io/preprints/socarxiv/g4vjt
+syrup, s. (2023, September 29). Alternative Personal Credit Scoring Tests without Financial History, A Novel Method, Credit Needs and Democracy. https://doi.org/10.31235/osf.io/g4vjt
