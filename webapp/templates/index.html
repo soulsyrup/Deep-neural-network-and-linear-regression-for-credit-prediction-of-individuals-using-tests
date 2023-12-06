@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Credit Score Prediction</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="{{ url_for('static', filename='scripts.js') }}"></script>
+</head>
+<body>
+    <div>
+        <p>Question 1:  How would you rate your level of financial knowledge?</p>
+        <!-- Add options as needed -->
+        <input type="radio" id="q1a1" name="q1" value="option1">
+        <label for="q1a1">Very Low</label><br>
+        <input type="radio" id="q1a2" name="q1" value="option2">
+        <label for="q1a1">Low</label><br>
+        <input type="radio" id="q1a3" name="q1" value="option3">
+        <label for="q1a1">Moderate</label><br>
+        <input type="radio" id="q1a4" name="q1" value="option4">
+        <label for="q1a1">High</label><br>
+        <input type="radio" id="q1a5" name="q1" value="option5">
+        <label for="q1a1">Very High</label><br>
+        <p>Question 2:  How would you rate yourself on keeping track of money?</p>
+	<!-- Add options as needed -->
+        <input type="radio" id="q2a1" name="q2" value="option1">
+        <label for="q1a1">Very Low</label><br>
+        <input type="radio" id="q2a2" name="q2" value="option2">
+        <label for="q1a1">Low</label><br>
+        <input type="radio" id="q2a3" name="q2" value="option3">
+        <label for="q1a1">Moderate</label><br>
+        <input type="radio" id="q2a4" name="q2" value="option4">
+        <label for="q1a1">High</label><br>
+        <input type="radio" id="q2a5" name="q2" value="option5">
+        <label for="q1a1">Very High</label><br>
+        <p>Question 3:  How would you rate yourself on making ends meet?</p>
+        <!-- Add options as needed -->
+        <input type="radio" id="q3a1" name="q3" value="option1">
+        <label for="q1a1">Very Low</label><br>
+        <input type="radio" id="q3a2" name="q3" value="option2">
+        <label for="q1a1">Low</label><br>
+        <input type="radio" id="q3a3" name="q3" value="option3">
+        <label for="q1a1">Moderate</label><br>
+        <input type="radio" id="q3a4" name="q3" value="option4">
+        <label for="q1a1">High</label><br>
+        <input type="radio" id="q3a5" name="q3" value="option5">
+        <label for="q1a1">Very High</label><br>
+        <p>Question 4:  How would you rate yourself on “shop around to get the best financial product 
+such as loans and insurance rates”?</p>
+        <!-- Add options as needed -->
+        <input type="radio" id="q4a1" name="q4" value="option1">
+        <label for="q1a1">Very Low</label><br>
+        <input type="radio" id="q4a2" name="q4" value="option2">
+        <label for="q1a1">Low</label><br>
+        <input type="radio" id="q4a3" name="q4" value="option3">
+        <label for="q1a1">Moderate</label><br>
+        <input type="radio" id="q4a4" name="q4" value="option4">
+        <label for="q1a1">High</label><br>
+        <input type="radio" id="q4a5" name="q4" value="option5">
+        <label for="q1a1">Very High</label><br>
+        <p>Question 5:  How would you rate yourself on staying informed on financial issues?</p>
+        <!-- Add options as needed -->
+        <input type="radio" id="q5a1" name="q5" value="option1">
+        <label for="q1a1">Very Low</label><br>
+        <input type="radio" id="q5a2" name="q5" value="option2">
+        <label for="q1a1">Low</label><br>
+        <input type="radio" id="q5a3" name="q5" value="option3">
+        <label for="q1a1">Moderate</label><br>
+        <input type="radio" id="q5a4" name="q5" value="option4">
+        <label for="q1a1">High</label><br>
+        <input type="radio" id="q5a5" name="q5" value="option5">
+        <label for="q1a1">Very High</label><br>
+                <!-- IQ Question with numerical input and clickable link -->
+        <p>IQ: What is your IQ score? Please take this test to assess your IQ: <a href="https://www.mensa.org/public/mensa-iq-challenge" target="_blank">Mensa IQ Challenge</a></p>
+        <input type="number" id="iqScore" name="iqScore"><br>
+        <p>Question 6:    Suppose you have £100 in a savings account earning 2 percent interest a year. After 
+five years, how much would you have?</p>
+        <!-- Add options as needed -->
+        <input type="radio" id="q6a1" name="q6" value="option1">
+        <label for="q1a1">More than £102 </label><br>
+        <input type="radio" id="q6a2" name="q6" value="option2">
+        <label for="q1a1">Exactly £102 </label><br>
+        <input type="radio" id="q6a3" name="q6" value="option3">
+        <label for="q1a1">Less than £102 </label><br>
+        <input type="radio" id="q6a4" name="q6" value="option4">
+        <label for="q1a1">Don't Know</label><br>
+        <p>Question 7:    Imagine that the interest rate on your savings account is 1 percent a year and 
+inflation is 2 percent a year. After one year, would the money in the account buy more 
+than it does today, exactly the same or less than today?</p>
+        <!-- Add options as needed -->
+        <input type="radio" id="q7a1" name="q7" value="option1">
+        <label for="q1a1">More</label><br>
+        <input type="radio" id="q7a2" name="q7" value="option2">
+        <label for="q1a1">Same</label><br>
+        <input type="radio" id="q7a3" name="q7" value="option3">
+        <label for="q1a1">Less</label><br>
+        <input type="radio" id="q7a4" name="q7" value="option4">
+        <label for="q1a1">Don't Know</label><br>
+        <p>Question 8:    If interest rates rise, what will typically happen to bond prices? Rise, fall, stay the 
+same, or is there no relationship?</p>
+        <!-- Add options as needed -->
+        <input type="radio" id="q8a1" name="q8" value="option1">
+        <label for="q1a1">Rise</label><br>
+        <input type="radio" id="q8a2" name="q8" value="option2">
+        <label for="q1a1">Fall</label><br>
+        <input type="radio" id="q8a3" name="q8" value="option3">
+        <label for="q1a1">Stay the same</label><br>
+        <input type="radio" id="q8a4" name="q8" value="option4">
+        <label for="q1a1">No Relationship</label><br>
+        <input type="radio" id="q8a5" name="q8" value="option5">
+        <label for="q1a1">Don't Know</label><br>
+        <p>Question 9:    True or false: A 15-year mortgage typically requires higher monthly payments than a 
+30-year mortgage but the total interest over the life of the loan will be less.</p>
+        <!-- Add options as needed -->
+        <input type="radio" id="q9a1" name="q9" value="option1">
+        <label for="q1a1">True</label><br>
+        <input type="radio" id="q9a2" name="q9" value="option2">
+        <label for="q1a1">False</label><br>
+        <input type="radio" id="q9a3" name="q9" value="option3">
+        <label for="q1a1">Don't Know</label><br>
+        <p>Question 10:   True or false: Buying a single company's stock usually provides a safer return than a 
+stock mutual fund.</p>
+        <!-- Add options as needed -->
+        <input type="radio" id="q10a1" name="q10" value="option1">
+        <label for="q1a1">True</label><br>
+        <input type="radio" id="q10a2" name="q10" value="option2">
+        <label for="q1a1">False</label><br>
+        <input type="radio" id="q10a3" name="q10" value="option3">
+        <label for="q1a1">Don't Know</label><br>
+        <p>Question 11:   Suppose you owe £1000 on a loan and the interest rate you are charged is 20% per 
+year compounded annually. If you didn't pay anything off, at this interest rate, how 
+many years would it take for the amount you owe to double?</p>
+        <!-- Add options as needed -->
+        <input type="radio" id="q11a1" name="q11" value="option1">
+        <label for="q1a1">Less than 2 years</label><br>
+        <input type="radio" id="q11a2" name="q11" value="option2">
+        <label for="q1a1">2 to 4 years</label><br>
+        <input type="radio" id="q11a3" name="q11" value="option3">
+        <label for="q1a1">5 to 9 years</label><br>
+        <input type="radio" id="q11a4" name="q11" value="option4">
+        <label for="q1a1">10 or more years</label><br>
+        <input type="radio" id="q11a5" name="q11" value="option5">
+        <label for="q1a1">Don't Know</label><br>
+        <p>Question 12:   Which of the following indicates the highest probability of getting a particular 
+disease?</p>
+        <!-- Add options as needed -->
+        <input type="radio" id="q12a1" name="q12" value="option1">
+        <label for="q1a1">There is a one-in-twenty chance of getting the disease</label><br>
+        <input type="radio" id="q12a2" name="q12" value="option2">
+        <label for="q1a1">2% of the population will get the disease</label><br>
+        <input type="radio" id="q12a3" name="q12" value="option3">
+        <label for="q1a1">25 out of every 1,000 people will get the disease </label><br>
+        <input type="radio" id="q12a4" name="q12" value="option4">
+        <label for="q1a1">Don't Know</label><br>
+        <input type="radio" id="q12a5" name="q12" value="option5">
+        <label for="q1a1">Prefer not to say </label><br>
+    </div>
+    <button onclick="submitAnswers()">Submit</button>
+    <div id="result"></div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+    color: red;
+    text-align: center; /* Center text */
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 60px;
+}
+
+div {
+    display: inline-block;
+    text-align: left; /* Align text to the left inside the div */
+    margin-top: 20px;
+}
+
+a {
+    color: red;
+}
+
+.submit-button-container {
+    text-align: center;
+    position: fixed;
+    bottom: 60px; /* Changed from 20px to 60px */
+    width: calc(100% - 120px); /* Adjust width to account for left and right margins */
+}
